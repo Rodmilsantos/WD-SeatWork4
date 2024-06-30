@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.dota-header {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    height: 80px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff4655;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+.btn-outline-light {
+    border-color: #ff4655;
+    color: #ff4655;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-light:hover {
+    background-color: #ff4655;
+    color: white;
+}
+
+.hero {
+    background-color: #f50303;
+    color: black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1s ease-out;
+}
+
+.feature {
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 20px 0;
+    height: 700px;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+    animation: slideInUp 1s ease-out;
+}
+
+.feature h2, .feature p, .learn-more {
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.feature h2 {
+    top: 20px;
+    left: 20px;
+}
+
+.feature p {
+    bottom: 60px;
+    left: 20px;
+}
+
+.learn-more {
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(252, 0, 0, 0.8);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.learn-more:hover {
+    background-color: rgba(252, 0, 0, 1);
+}
+
+.feature-1 {
+    background-image: url('https://wallpapers.com/images/hd/dota-2-juggernaut-1920-x-1080-y4eynenktsj7i0oa.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-2 {
+    background-image: url('https://dotawallpapers.com/wallpaper/dota2hq.eu-dota-2-phantom-assassin-wallpaper-for-pc-3990-1366x768.jpg');
+    background-size: contain;
+    background-position: center;
+}
+
+.feature-3 {
+    background-image: url('https://cdn.akamai.steamstatic.com/apps/dota2/images/acolyteofthelostarts/kid-invoker-keyart.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-logo {
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
