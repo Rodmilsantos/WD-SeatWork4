@@ -40,19 +40,19 @@ header {
 }
 
 #feature2 {
-    background-image: url('https://wallpapercave.com/wp/wp9469172.jpg');
+    background-image: url('https://www.motortrend.com/uploads/2023/04/RWB-Porsche-14.jpg?w=768&width=768&q=75&format=webp');
     font-family: 'Merriweather', serif;
     align-items: flex-end; 
     animation-name: fadeInUp;
-    animation-delay: 1s; 
+ 
 }
 
 #feature3 {
-    background-image: url('https://wallpapercave.com/wp/wp2677001.jpg');
+    background-image: url('https://cdn.elferspot.com/wp-content/uploads/2021/08/992Love_Elferspot_Header-1-scaled.jpg');
     font-family: 'Merriweather', serif;
     align-items: center; 
     animation-name: fadeInUp;
-    animation-delay: 1s; 
+  
 }
 
 .feature .overlay {
