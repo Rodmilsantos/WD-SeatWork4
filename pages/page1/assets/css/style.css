@@ -21,7 +21,7 @@ header {
 
 .feature {
     height: 500px;
-    background-size: 110%; 
+    background-size: 110%;
     background-position: center;
     position: relative;
     color: white;
@@ -40,19 +40,105 @@ header {
 }
 
 #feature2 {
-    background-image: url('https://www.motortrend.com/uploads/2023/04/RWB-Porsche-14.jpg?w=768&width=768&q=75&format=webp');
+    background-image: url('https://cdn.motor1.com/images/mgl/n7Qxy/s1/rauh-welt-begriff-porsche-911-on-forgestar-wheels.webp');
     font-family: 'Merriweather', serif;
-    align-items: flex-end; 
     animation-name: fadeInUp;
- 
 }
 
 #feature3 {
-    background-image: url('https://cdn.elferspot.com/wp-content/uploads/2021/08/992Love_Elferspot_Header-1-scaled.jpg');
+    background-image: url('https://i.ytimg.com/vi/oMlxxAaoWHY/maxresdefault.jpg');
     font-family: 'Merriweather', serif;
-    align-items: center; 
     animation-name: fadeInUp;
-  
+}
+
+.feature .overlay {
+    background-color: rgba(0, 0, 0, 0.849);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0c0c0c;
+}
+
+.hero {
+    height: 400px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.feature {
+    height: 500px;
+    background-size: 110%;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+#feature1 {
+    background-image: url('https://www.topgear.com/sites/default/files/2022/08/CFM_2458v1.jpg');
+    font-family: 'Merriweather', serif;
+    animation-name: fadeInUp;
+}
+
+#feature2 {
+    background-image: url('https://cdn.motor1.com/images/mgl/n7Qxy/s1/rauh-welt-begriff-porsche-911-on-forgestar-wheels.webp');
+    font-family: 'Merriweather', serif;
+    animation-name: fadeInUp;
+}
+
+#feature3 {
+    background-image: url('https://i.ytimg.com/vi/oMlxxAaoWHY/maxresdefault.jpg');
+    font-family: 'Merriweather', serif;
+    animation-name: fadeInUp;
 }
 
 .feature .overlay {
